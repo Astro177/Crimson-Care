@@ -1,7 +1,6 @@
 const NavBar = () => {
-  const nav = {};
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 fixed z-10">
       <div className="navbar-start">
         <a className="btn btn-ghost normal-case text-3xl">
           <span className="text-red-500">CRIMSON</span>
@@ -30,8 +29,9 @@ const NavBar = () => {
             <a>CONTACT</a>
           </li>
         </ul>
+        {/* <input type="text" placeholder="Search" className="ml-12 input input-bordered w-24 md:w-auto input-error" /> */}
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end lg:hidden">
         <div className="dropdown dropdown-hover dropdown-left">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
