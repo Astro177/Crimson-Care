@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable jsx-a11y/alt-text */
 import banner from "@/assets/blood-donor.jpg";
+import Wave from "react-wavify";
 
 const Banner = () => {
   const style = {
@@ -17,7 +18,7 @@ const Banner = () => {
         style={style}
         className="h-[80vh] text-center flex flex-col justify-center"
       >
-        <h1 className="text-white font-bold text-6xl">
+        <h1 className="text-color font-bold text-6xl">
           DONATE BLOOD AND GET <br /> REAL BLESSINGS.
         </h1>
         <p className="mt-6 text-xl text-white font-semibold">
@@ -28,8 +29,9 @@ const Banner = () => {
           Donating blood not only saves the life also save donor's lives.
         </p>
         <div className="flex justify-center items-center mt-10">
-          <button className="btn btn-error">Donate Today</button>
+          <button className="btn btn-error">Donate Today</button> 
         </div>
+        
       </div>
     </section>
   );

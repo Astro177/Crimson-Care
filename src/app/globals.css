@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-banner {
-  background-image: url("../assets/blood-donor.jpg");
-  height: 100vh;
-  background-repeat: no-repeat;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  margin-left: 30px;
-  background-repeat: no-repeat;
-  font-size: 40px;
-  font-weight: 800;
-  color: azure;
-  text-align: center;
-  flex-direction: column; */
+.text-color{
+  @apply bg-gradient-to-r from-red-400 via-pink-700 to-red-500 text-transparent bg-clip-text
 }

@@ -1,15 +1,15 @@
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 lg:container mx-auto">
       <div className="navbar-start">
-        <a className="btn btn-ghost normal-case text-3xl">
-          <span className="text-red-500">CRIMSON</span>
-          <span className="text-blue-600">CARE</span>
+        <a className="btn btn-ghost normal-case text-3xl font-bold">
+          <span className="text-color">CRIMSON</span>
+          <span>CARE</span>
         </a>
       </div>
 
-      <div className="hidden lg:flex navbar-center">
-        <ul className="menu menu-horizontal px-1">
+      <div className="hidden lg:flex navbar-end">
+        <ul className="menu menu-horizontal px-1 font-semibold">
           <li>
             <a>HOME</a>
           </li>
@@ -51,7 +51,7 @@ const NavBar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-semibold"
           >
             <li>
               <a>HOME</a>
