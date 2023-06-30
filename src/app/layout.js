@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="lg:container mx-auto">
           <NavBar />
-          <div className="min-h-[calc(100vh-132px)]">{children}</div>
+          <div className="min-h-[calc(100vh-242px)]">{children}</div>
           <Footer />
         </div>
       </body>

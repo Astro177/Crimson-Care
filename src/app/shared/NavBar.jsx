@@ -1,10 +1,10 @@
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100 fixed z-10">
+    <div className="navbar bg-base-100">
       <div className="navbar-start">
         <a className="btn btn-ghost normal-case text-3xl">
           <span className="text-red-500">CRIMSON</span>
-          <span>CARE</span>
+          <span className="text-blue-600">CARE</span>
         </a>
       </div>
 
