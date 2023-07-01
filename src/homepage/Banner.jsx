@@ -29,7 +29,7 @@ const Banner = () => {
           Donating blood not only saves the life also save donor's lives.
         </p>
         <div className="flex justify-center items-center mt-10">
-          <button className="btn btn-error">Donate Today</button> 
+          <button className="btn-main">Donate Today</button> 
         </div>
         
       </div>

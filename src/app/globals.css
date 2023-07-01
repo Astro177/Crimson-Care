@@ -5,3 +5,7 @@
 .text-color{
   @apply bg-gradient-to-r from-red-400 via-pink-700 to-red-500 text-transparent bg-clip-text
 }
+
+.btn-main {
+  @apply font-semibold drop-shadow-2xl px-4 py-2 md:px-8 md:py-3 text-lg rounded-xl bg-transparent text-white hover:bg-gradient-to-r hover:from-red-600 hover:via-pink-400 hover:to-red-500 border-2 border-red-500 hover:border-red-400 hover:text-black hover:scale-110 transition duration-200;
+}

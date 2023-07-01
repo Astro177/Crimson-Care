@@ -1,11 +1,13 @@
 import Banner from './Banner';
+import Campaigns from './Campaigns';
 import Process from './Process';
 
 const Homepage = () => {
     return (
-        <div className=''>
+        <div>
             <Banner/>
             <Process/>
+            <Campaigns/>
         </div>
     );
 };
