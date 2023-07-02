@@ -1,6 +1,12 @@
 // import banner from "@/assets/blood.jpg"
 import banner from "@/assets/blood.jpg";
 import Image from "next/image";
+import {
+  PiHeartbeatFill,
+  PiStethoscope,
+  PiCalculatorFill,
+} from "react-icons/pi";
+import { FaPeopleGroup } from "react-icons/fa";
 
 const Appointment = () => {
   return (
@@ -51,6 +57,28 @@ const Appointment = () => {
               <button className="btn-main">Get Appointment</button>
             </div>
           </form>
+        </div>
+      </div>
+      <div className="mt-48 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-12 mx-auto container">
+        <div className="flex flex-col justify-center items-center rounded-xl gap-3 bg-slate-300 p-10 sm:w-full lg:w-54 mx-auto">
+          <PiHeartbeatFill className="text-5xl hover:text-red-600 hover:scale-125 transition-all duration-200" />
+          <p className="text-3xl text-color font-bold">1950</p>
+          <p className="text-xl font-semibold">Success Smile</p>
+        </div>
+        <div className="flex flex-col justify-center items-center rounded-xl gap-3 bg-slate-300 p-10 sm:w-full lg:w-54 mx-auto">
+          <PiStethoscope className="text-5xl hover:text-red-600 hover:scale-125 transition-all duration-200" />
+          <p className="text-3xl text-color font-bold">1150</p>
+          <p className="text-xl font-semibold">Happy Donors</p>
+        </div>
+        <div className="flex flex-col justify-center items-center rounded-xl gap-3 bg-slate-300 p-10 sm:w-full lg:w-54 mx-auto">
+          <PiHeartbeatFill className="text-5xl hover:text-red-600 hover:scale-125 transition-all duration-200" />
+          <p className="text-3xl text-color font-bold">3568</p>
+          <p className="text-xl font-semibold">Happy Recipient</p>
+        </div>
+        <div className="flex flex-col justify-center items-center rounded-xl gap-3 bg-slate-300 p-10 sm:w-full lg:w-54 mx-auto">
+          <PiHeartbeatFill className="text-5xl hover:text-red-600 hover:scale-125 transition-all duration-200" />
+          <p className="text-3xl text-color font-bold">1364</p>
+          <p className="text-xl font-semibold">Total Awards</p>
         </div>
       </div>
     </section>
