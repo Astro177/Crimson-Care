@@ -61,7 +61,7 @@ const Campaigns = () => {
     speed: 500
   };
   return (
-    <section className="container mx-auto mt-28 mb-24">
+    <section className="container mx-auto mt-28 mb-44">
       <div className="text-start">
         <h1 className="uppercase font-bold text-4xl mb-4">OUR CAMPAIGNS</h1>
         <div className="flex justify-start">

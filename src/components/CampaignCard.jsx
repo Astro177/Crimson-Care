@@ -15,7 +15,7 @@ const CampaignCard = ({ item }) => {
         </div>
         <h2 className="text-3xl text-color font-semibold mb-4">{title}</h2>
         <p>{details}</p>
-        <div className="flex mt-8 gap-16 items-center">
+        <div className="flex mt-8 gap-12 lg:gap-4 items-center">
           <div>
             <div className="flex gap-2 items-center"><BsFillClockFill className="text-red-500"/>{time}</div>
           </div>
